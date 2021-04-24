@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Stylesheet
+import './Business.css';
+
 const business = {
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
@@ -38,3 +41,5 @@ class Business extends React.Component {
         )
     }
 }
+
+export default Business;
