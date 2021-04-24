@@ -1,21 +1,16 @@
+import React from 'react';
 import './App.css';
+
+import BusinessList from '../BusinessList/BusinessList.js';
+import SearchBar from '../SearchBar/SearchBar.js';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello everyone! Welcome to Ravenous!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn some React!
-        </a>
-      </header>
+    <div class="App">
+      <h1>ravenous</h1>
+      <SearchBar />
+      <BusinessList />
     </div>
   );
 }
